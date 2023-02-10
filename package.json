@@ -4,7 +4,9 @@
   "description": "A program based on electron.js made to easliy see and find specs for the installed hardware",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/emilartzz/osinfo/issues"
   },
-  "homepage": "https://github.com/emilartzz/osinfo#readme"
+  "homepage": "https://github.com/emilartzz/osinfo#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "electron": "^23.0.0"
+  },
+  "dependencies": {}
 }
