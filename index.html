@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <title>OSinfo</title>
 
    <link rel="stylesheet" href="./css/main.css">
@@ -12,9 +13,62 @@
 <body>
    
    <div id="app">
-      <h1>Hello</h1>
+      <header></header>
+      <main>
+         <section id="hardwares">
+            <div class="hardware cpu">
+               <h1 class="manufacturer">LOADING...</h1>
+               <span class="model"></span>
+               <span class="cores"></span>
+               <span class="speed"></span>
+               <span class="socket"></span>
+               <span class="cache"></span>
+               <span class="voltage"></span>
+               <span class="power"></span>
+               <span class="tdp"></span>
+               <span class="virtualization"></span>
+            </div>
+
+            <div class="hardware gpu">
+               <h1 class="manufacturer">LOADING...</h1>
+               <span class="model"></span>
+               <span class="vram"></span>
+               <span class="vramDynamic"></span>
+               <span class="bus"></span>
+               <span class="display"></span>
+               <span class="displayActive"></span>
+               <span class="pixel"></span>
+               <span class="vertex"></span>
+               <span class="memory"></span>
+               <span class="clock"></span>
+               <span class="clockMax"></span>
+               <span class="clockBase"></span>
+               <span class="clockBoost"></span>
+               <span class="voltage"></span>
+               <span class="power"></span>
+               <span class="tdp"></span>
+               <span class="temperature"></span>
+               <span class="temperatureMax"></span>
+               <span class="temperatureMin"></span>
+               <span class="fan"></span>
+               <span class="fanMin"></span>
+               <span class="fanMax"></span>
+               <span class="driver"></span>
+               <span class="driverVersion"></span>
+               <span class="driverDate"></span>
+               <span class="driverVendor"></span>
+               <span class="driverModel"></span>
+               <span class="driverType"></span>
+               <span class="driverDeviceID"></span>
+               <span class="driverDeviceKey"></span>
+               <span class="api"></span>
+               <span class="apiVersion"></span>
+            </div>
+         </section>
+      </main>
+      <footer>2023</footer>
    </div>
 
-   <script src="./js/app.js"></script>
+   <script src="./js/renderer.js"></script>
 </body>
 </html>
